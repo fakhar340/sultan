@@ -73,13 +73,6 @@ class Events:
 
     def get_event(self):
         return f"name:{self.name},date:{self.date},location:{self.location}"
-
-
-Event1 = Events("Annaul function",2025-4-10,"School Auditorium")
-
-# Displaying details of all events
-
-print(Event1.get_event())
  
 class Exams(School):
     pass
