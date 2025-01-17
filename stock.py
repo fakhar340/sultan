@@ -1,7 +1,4 @@
-class school:
-  pass
-
-class stock(School):
+class stock():
     def __init__(self, name, quantity, price_per_item, category, supplier):
         self.name = name
         self.quantity = quantity
